@@ -1,0 +1,17 @@
+{
+  "name": "palindrom-angular-app",
+  "version": "1.0.0",
+  "description": "Angularjs app to find largest palindrome number from two inputs.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node server.js"
+  },
+  "author": "aayushi",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "path": "^0.12.7"
+  }
+}
