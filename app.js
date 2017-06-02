@@ -22,10 +22,10 @@
 	app.controller('mainController', function($scope) {
 		// create a message to display in our view
 		$scope.message = 'This App will help you to find largest palindrome number from the range you would like to input.' ;
-		$scope.msg = 'Created By: Aayushi Patel'; });
+		$scope.msg = ''; });
 	app.controller('aboutController', function($scope, toaster) {
 		$scope.message = 'Look! I am an Palindrome-Finder page.';
-		$scope.msg = 'Created By: Aayushi Patel';
+		$scope.msg = '';
         $scope.result = "";
         $scope.input1 = "";
         $scope.input2 = "";
