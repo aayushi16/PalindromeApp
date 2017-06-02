@@ -2,15 +2,16 @@
 Angular Assignment
 
 Palindrome Finder App
+This applicaation is used to find largest palindrome number from two inputs.
 
-Need to install node.js from https://nodejs.org/en/download/
+1. Install node.js from https://nodejs.org/en/download/
 
-Go inside project directory in terminal
+2. Go inside project directory in terminal,
 
-write following command in terminal :
-npm install 
+3. Write following command in terminal:
+   npm install 
 
-After that start appliction using following command in terminal:
-npm start 
+4. After that start application using following command in terminal:
+   npm start 
 
-Go to http://localhost:3000 in browser.
+5. Go to http://localhost:3000 in browser.
