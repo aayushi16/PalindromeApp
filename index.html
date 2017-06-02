@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<!-- define angular app -->
+<html ng-app="palindromeApp">
+
+<head>
+  <!-- SCROLLS -->
+  <!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />-->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <!--<link rel="stylesheet" href="./css/font-awesome.css">-->
+  <!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />-->
+  <link href="//cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/2.1.0/toaster.css" rel="stylesheet" />
+
+  <!-- SPELLS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.10/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.10/angular-route.min.js"></script>
+  <script src="app.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.10/angular-animate.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/2.1.0/toaster.js"></script>
+</head>
+
+<!-- define angular controller -->
+<body ng-controller="mainController" style="background-color:Black;">
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header" >
+        <a class="navbar-brand" href="#/"><h4 style="color:Black;font-family:sans-serif;">Angular Palindrome Finder App</h4></a>
+      </div>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#/"><i class="fa fa-home"></i><h4 style="color:Black;font-family:sans-serif;"> Home</h4></a></li>
+        <li><a href="#about"><i class="fa fa-shield"></i><h4 style="color:Black;font-family:sans-serif;">Finder</h4></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="main">
+  
+    <!-- angular templating -->
+		<!-- this is where content will be injected -->
+    <div ng-view></div>
+    
+  </div>
+  
+  <footer class="text-center">
+    
+  </footer>
+  
+</body>
+
+</html>
